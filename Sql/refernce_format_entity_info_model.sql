@@ -1,0 +1,15 @@
+create table if not exists refernce_format_entity_info_model(
+refernce_format_key Integer not null,
+swift_group_key varchar(255) null,
+group_parent_key varchar(255) null,
+inst_status varchar(255) null,
+cop_group_key varchar(255) null,
+ssi_group_key varchar(255) null,
+iban_key varchar(255) null,
+ifsc_identifier varchar(255) null,
+transaction_code varchar(255) null,
+ibps_mode varchar(255) null,
+creation_date varchar(255) null,
+entity_state varchar(255) null,
+modified_date varchar(255) null,
+constraint refernce_format_entity_info_model_pk primary key(refernce_format_key));

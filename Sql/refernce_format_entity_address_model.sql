@@ -1,0 +1,17 @@
+create table if not exists refernce_format_entity_address_model(
+refernce_format_key Integer not null,
+mailer_type varchar(255) null,
+address_to varchar(255) null,
+address_line1 varchar(255) null,
+address_line2 varchar(255) null,
+address_line3 varchar(255) null,
+address_line4 varchar(255) null,
+address_line5 varchar(255) null,
+city varchar(255) null,
+state varchar(255) null,
+country_code varchar(255) null,
+is_default char null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_State varchar(255) null,
+constraint refernce_format_entity_address_model_pk primary key(refernce_format_key));
